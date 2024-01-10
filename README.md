@@ -1,16 +1,14 @@
 # my_stock
 
-A new Flutter project.
+Getting stocks information from yahoo API.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project show the informations about the stocks of the last 30 days.
 
-A few resources to get you started if this is your first Flutter project:
+This projetct are using the Yahoo Finance API: 
+- [Yahoo Finance API](https://finance.yahoo.com/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Fell free to contact me to explain something:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- teles.allan@gmail.com

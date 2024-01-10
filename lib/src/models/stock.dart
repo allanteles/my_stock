@@ -16,7 +16,7 @@ class Stock {
 
   factory Stock.fromMap(Map<String, dynamic> map) {
     return Stock(
-      date: DateTime.parse(map['object']['chart']['result'][0]['timestamp']),
+      date: DateTime.parse(map['date']),
       price: map['price'] as double,
     );
   }
@@ -25,4 +25,7 @@ class Stock {
 
   factory Stock.fromJson(String source) =>
       Stock.fromMap(json.decode(source) as Map<String, dynamic>);
+
+  @override
+  String toString() => 'Stock(date: $date, price: $price)';
 }

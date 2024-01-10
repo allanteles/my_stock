@@ -1,5 +1,6 @@
 import '../../models/stock.dart';
 
 abstract interface class StockRepository {
-  Future<List<Stock>> fecthAllData(String symbol);
+  Future<List<Stock>> fecthByDateInterval(
+      String symbol, DateTime inicialDate, DateTime endDate);
 }
