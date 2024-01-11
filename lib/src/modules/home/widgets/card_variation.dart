@@ -30,7 +30,7 @@ class CardVariation extends StatelessWidget {
           Text(formattedDate),
           Text(price.toStringAsFixed(2)),
           Text('${sequenceVariation.toStringAsFixed(2)}%'),
-          Text('${firstVariation.toStringAsPrecision(2)}%'),
+          Text('${firstVariation.toStringAsFixed(2)}%'),
         ],
       ),
     );
